@@ -1,0 +1,40 @@
+.navItems {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0;
+
+  &-items {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    padding-left: 10%;
+
+    &-nav {
+      margin-top: 15px;
+      padding-right: 35px;
+    }
+  }
+
+  &-logo-container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 120px;
+    width: 40%;
+
+    &-main-logo {
+      max-width: 135px;
+      height: auto;
+      margin-right: 25px;
+    }
+
+    &-search-box {
+      padding: 15px;
+    }
+
+    &-line {
+      border: 1px solid red;
+      height: 23px;
+      margin-top: 15px;
+    }
+  }
+}

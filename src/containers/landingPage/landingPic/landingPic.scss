@@ -1,0 +1,52 @@
+.carousel-slider {
+  height: 50vw;
+  margin-top: 10px;
+}
+
+.slider-image {
+  height: "61vw";
+  background-repeat: "no-repeat";
+  background-size: "cover";
+}
+
+.thumbs-wrapper {
+  display: none;
+}
+
+.pic-content {
+  height: 100%;
+  background: #0000007c;
+  padding-top: 25%;
+
+  h1 {
+    margin-bottom: 0;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    span {
+      color: #1f89f7;
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: #1f89f7;
+    }
+  }
+
+  &-info {
+    color: white;
+    border-right: 3px solid white;
+    text-align: left;
+    margin-left: 15%;
+    width: 305px;
+    padding-bottom: 1px;
+
+    p {
+      font-size: 17px;
+      font-weight: bolder;
+      margin-left: 25px;
+      span {
+        border-left: 1px solid white;
+        padding-left: 10px;
+        margin-left: 8px;
+      }
+    }
+  }
+}
